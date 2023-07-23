@@ -2,139 +2,35 @@
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
   --dl-color-gray-900: #D9D9D9;
-  --dl-size-size-large: 144px;
-  --dl-size-size-small: 48px;
   --dl-color-danger-300: #A22020;
   --dl-color-danger-500: #BF2626;
   --dl-color-danger-700: #E14747;
   --dl-color-gray-black: #000000;
   --dl-color-gray-white: #FFFFFF;
-  --dl-size-size-medium: 96px;
-  --dl-size-size-xlarge: 192px;
-  --dl-size-size-xsmall: 16px;
-  --dl-space-space-unit: 16px;
+  --dl-space-space-unit: 8px;
   --dl-color-primary-100: #003EB3;
   --dl-color-primary-300: #0074F0;
   --dl-color-primary-500: #14A9FF;
   --dl-color-primary-700: #85DCFF;
-  --dl-color-status-info: rgba(46, 90, 172, 1);
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
-  --dl-size-size-xxlarge: 288px;
-  --dl-color-status-error: rgba(218, 20, 20, 1);
-  --dl-size-size-maxwidth: 1400px;
-  --dl-color-neutral-black: rgba(9, 16, 29, 1);
-  --dl-color-neutral-white: rgba(255, 255, 255, 1);
-  --dl-color-status-infobg: rgba(238, 242, 250, 1);
   --dl-radius-radius-round: 50%;
-  --dl-color-accent-accent1: rgba(236, 177, 242, 1);
-  --dl-color-accent-accent2: rgba(45, 106, 106, 1);
-  --dl-color-accent-accent3: rgba(232, 173, 139, 1);
-  --dl-color-accent-accent4: rgba(34, 24, 116, 1);
-  --dl-color-accent-accent5: rgba(124, 197, 214, 1);
-  --dl-color-accent-accent6: rgba(225, 95, 76, 1);
-  --dl-color-status-errorbg: rgba(254, 239, 239, 1);
-  --dl-color-status-success: rgba(40, 125, 60, 1);
-  --dl-color-status-warning: rgba(185, 80, 0, 1);
-  --dl-space-space-halfunit: 8px;
-  --dl-space-space-sixunits: 96px;
-  --dl-space-space-twounits: 32px;
+  --dl-size-size-maxcontent: 1414px;
+  --dl-space-space-halfunit: 4px;
+  --dl-space-space-tenunits: 80px;
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
   --dl-radius-radius-radius8: 8px;
-  --dl-space-space-fiveunits: 80px;
-  --dl-space-space-fourunits: 64px;
-  --dl-color-accent-accent128: rgba(236, 178, 242, 0.2800000011920929);
-  --dl-color-accent-accent210: rgba(45, 106, 106, 0.10000000149011612);
-  --dl-color-accent-accent323: rgba(233, 173, 140, 0.23000000417232513);
-  --dl-color-accent-accent410: rgba(34, 24, 116, 0.10000000149011612);
-  --dl-color-accent-accent525: rgba(124, 198, 214, 0.25);
-  --dl-color-accent-accent615: rgba(225, 96, 77, 0.15000000596046448);
-  --dl-color-neutral-neutral1: rgba(43, 57, 75, 1);
-  --dl-color-neutral-neutral2: rgba(57, 68, 81, 1);
-  --dl-color-neutral-neutral3: rgba(83, 93, 104, 1);
-  --dl-color-neutral-neutral4: rgba(108, 117, 128, 1);
-  --dl-color-neutral-neutral5: rgba(133, 139, 148, 1);
-  --dl-color-neutral-neutral6: rgba(164, 171, 179, 1);
-  --dl-color-neutral-neutral7: rgba(217, 221, 226, 1);
-  --dl-color-neutral-neutral8: rgba(234, 238, 242, 1);
-  --dl-color-neutral-neutral9: rgba(244, 246, 249, 1);
-  --dl-color-status-successbg: rgba(237, 249, 240, 1);
-  --dl-color-status-warningbg: rgba(255, 244, 236, 1);
-  --dl-space-space-threeunits: 48px;
-  --dl-color-primary-primary10: rgba(232, 108, 0, 0.10000000149011612);
-  --dl-color-primary-primary20: rgba(232, 108, 0, 0.20000000298023224);
-  --dl-color-primary-primary30: rgba(232, 108, 0, 0.30000001192092896);
-  --dl-color-primary-primary40: rgba(232, 108, 0, 0.4000000059604645);
-  --dl-color-primary-primary50: rgba(232, 108, 0, 0.5);
-  --dl-color-primary-primary60: rgba(232, 108, 0, 0.6000000238418579);
-  --dl-color-primary-primary70: rgba(232, 108, 0, 0.699999988079071);
-  --dl-color-primary-primary80: rgba(232, 108, 0, 0.800000011920929);
-  --dl-color-primary-primary90: rgba(232, 108, 0, 0.8999999761581421);
-  --dl-color-primary-primary100: rgba(232, 108, 0, 1);
-  --dl-color-actionneutral-hover: rgba(133, 140, 148, 1);
-  --dl-color-actionprimary-hover: rgba(204, 95, 0, 1);
-  --dl-color-actionneutral-active: rgba(121, 127, 135, 1);
-  --dl-color-actionprimary-active: rgba(178, 83, 0, 1);
-  --dl-color-actionneutral-default: rgba(144, 151, 160, 1);
-  --dl-color-actionneutral-hover10: rgba(109, 117, 128, 0.10000000149011612);
-  --dl-color-actionneutral-visited: rgba(94, 56, 186, 1);
-  --dl-color-actionprimary-default: rgba(232, 108, 0, 1);
-  --dl-color-actionprimary-hover10: rgba(204, 95, 0, 0.10000000149011612);
-  --dl-color-actionprimary-visited: rgba(94, 56, 186, 1);
-  --dl-color-actionsecondary-hover: rgba(12, 158, 66, 1);
-  --dl-color-secondary-secondary10: rgba(253, 204, 74, 0.10000000149011612);
-  --dl-color-secondary-secondary20: rgba(253, 204, 74, 0.20000000298023224);
-  --dl-color-secondary-secondary30: rgba(253, 204, 74, 0.30000001192092896);
-  --dl-color-secondary-secondary40: rgba(253, 204, 74, 0.4000000059604645);
-  --dl-color-secondary-secondary50: rgba(253, 204, 74, 0.5);
-  --dl-color-secondary-secondary60: rgba(253, 204, 74, 0.6000000238418579);
-  --dl-color-secondary-secondary70: rgba(253, 204, 74, 0.699999988079071);
-  --dl-color-secondary-secondary80: rgba(253, 204, 74, 0.800000011920929);
-  --dl-color-secondary-secondary90: rgba(253, 204, 74, 0.8999999761581421);
-  --dl-space-space-oneandhalfunits: 24px;
-  --dl-color-actionneutral-active20: rgba(109, 117, 128, 0.20000000298023224);
-  --dl-color-actionneutral-disabled: rgba(144, 152, 161, 0.699999988079071);
-  --dl-color-actionneutral-inverted: rgba(255, 255, 255, 1);
-  --dl-color-actionprimary-active20: rgba(178, 83, 0, 0.20000000298023224);
-  --dl-color-actionprimary-disabled: rgba(232, 108, 0, 0.5);
-  --dl-color-actionprimary-inverted: rgba(255, 255, 255, 1);
-  --dl-color-actionsecondary-active: rgba(0, 146, 54, 1);
-  --dl-color-secondary-secondary100: rgba(253, 204, 74, 1);
-  --dl-color-actionsecondary-default: rgba(25, 171, 79, 1);
-  --dl-color-actionsecondary-hover10: rgba(11, 156, 64, 0.10000000149011612);
-  --dl-color-actionsecondary-visited: rgba(94, 56, 186, 1);
-  --dl-color-actionsecondary-active20: rgba(0, 147, 54, 0.20000000298023224);
-  --dl-color-actionsecondary-disabled: rgba(25, 171, 79, 0.5);
-  --dl-color-actionsecondary-inverted: rgba(255, 255, 255, 1);
+  --dl-space-space-fiveunits: 40px;
+  --dl-space-space-fourunits: 32px;
+  --dl-radius-radius-radius24: 24px;
+  --dl-space-space-doubleunit: 16px;
+  --dl-space-space-tripleunit: 24px;
 }
-.button {
-  color: var(--dl-color-gray-black);
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
-}
-.input {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
-}
-.textarea {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
 }
 .list {
   width: 100%;
@@ -147,786 +43,94 @@
 .list-item {
   display: list-item;
 }
-.teleport-show {
-  display: flex !important;
-  transform: none !important;
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
 }
-.Content {
-  font-size: 16px;
-  font-family: Inter;
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  font-family: Raleway;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.Section-Text {
+  font-size: 18px;
+  font-family: Raleway;
   font-weight: 400;
-  line-height: 1.15;
+  line-height: 1.55;
   text-transform: none;
   text-decoration: none;
 }
-.Heading {
-  font-size: 32px;
-  font-family: Inter;
+.SmallCard-Heading {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.55;
   text-transform: none;
   text-decoration: none;
 }
-.DisplayLargeHeavy-1200\+ {
-  font-size: 69px;
+.Card-Text {
+  font-size: 16px;
   font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 700px;
-  font-stretch: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
 }
-.DisplayLargeHeavy-576\+ {
-  font-size: 51px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.DisplayLargeHeavy-0\+ {
-  font-size: 41px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.DisplayLargeRegular-1200\+ {
-  font-size: 69px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.DisplayLargeRegular-576\+ {
-  font-size: 51px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.DisplayLargeRegular-0\+ {
-  font-size: 41px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.DisplayLargeLight-1200\+ {
-  font-size: 69px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.DisplayLargeLight-576\+ {
-  font-size: 51px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.DisplayLargeLight-0\+ {
-  font-size: 41px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.DisplaySmallHeavy-1200\+ {
-  font-size: 57px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.DisplaySmallHeavy-576\+ {
-  font-size: 44px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.DisplaySmallHeavy-0\+ {
+.BigCard-Heading {
   font-size: 36px;
   font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
 }
-.DisplaySmallRegular-1200\+ {
-  font-size: 57px;
+.Card-Heading {
+  font-size: 24px;
   font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
 }
-.DisplaySmallRegular-576\+ {
-  font-size: 44px;
+.Anchor {
+  font-size: 18px;
   font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
 }
-.DisplaySmallRegular-0\+ {
-  font-size: 36px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.DisplaySmallLight-1200\+ {
-  font-size: 57px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.DisplaySmallLight-576\+ {
-  font-size: 44px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.DisplaySmallLight-0\+ {
-  font-size: 36px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F1Heavy-1200\+ {
+.Section-Heading {
   font-size: 48px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F1Heavy-576\+ {
-  font-size: 38px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F1Heavy-0\+ {
-  font-size: 32px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F1Regular-1200\+ {
-  font-size: 48px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F1Regular-576\+ {
-  font-size: 38px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F1Regular-0\+ {
-  font-size: 32px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F1Light-1200\+ {
-  font-size: 48px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F1Light-576\+ {
-  font-size: 38px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F1Light-0\+ {
-  font-size: 32px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F2Heavy-1200\+ {
-  font-size: 40px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F2Heavy-576\+ {
-  font-size: 33px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F2Heavy-0\+ {
-  font-size: 29px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F2Regular-1200\+ {
-  font-size: 40px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F2Regular-576\+ {
-  font-size: 33px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F2Regular-0\+ {
-  font-size: 29px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F2Light-1200\+ {
-  font-size: 40px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F2Light-576\+ {
-  font-size: 33px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F2Light-0\+ {
-  font-size: 29px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F3Heavy-1200\+ {
-  font-size: 33px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F3Heavy-576\+ {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F3Heavy-0\+ {
-  font-size: 26px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F3Regular-1200\+ {
-  font-size: 33px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F3Regular-576\+ {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F3Regular-0\+ {
-  font-size: 26px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F3Light-1200\+ {
-  font-size: 33px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F3Light-576\+ {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F3Light-0\+ {
-  font-size: 26px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F4Heavy-1200\+ {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F4Heavy-576\+ {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F4Heavy-0\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F4Regular-1200\+ {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F4Regular-576\+ {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F4Regular-0\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F4Light-1200\+ {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F4Light-576\+ {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F4Light-0\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F5Heavy-1200\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F5Heavy-576\+ {
-  font-size: 21px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F5Heavy-0\+ {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F5Regular-1200\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F5Regular-576\+ {
-  font-size: 21px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F5Regular-0\+ {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F5Light-1200\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F5Light-576\+ {
-  font-size: 21px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F5Light-0\+ {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F6Heavy-1200\+ {
-  font-size: 19px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F6Heavy-576\+ {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F6Heavy-0\+ {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.F6Regular-1200\+ {
-  font-size: 19px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F6Regular-576\+ {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F6Regular-0\+ {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.F6Light-1200\+ {
-  font-size: 19px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F6Light-576\+ {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.F6Light-0\+ {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphLargeHeavy-1200\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphLargeHeavy-576\+ {
-  font-size: 21px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphLargeHeavy-0\+ {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphLargeRegular-1200\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphLargeRegular-576\+ {
-  font-size: 21px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphLargeRegular-0\+ {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphLargeLight-1200\+ {
-  font-size: 23px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphLargeLight-576\+ {
-  font-size: 21px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphLargeLight-0\+ {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphBaseHeavy {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphBaseRegular {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphBaseLight {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphSmallHeavy {
-  font-size: 13px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphSmallRegular {
-  font-size: 13px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphSmallLight {
-  font-size: 13px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphXSmallHeavy {
-  font-size: 11px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphXSmallRegular {
-  font-size: 11px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphXSmallLight {
-  font-size: 11px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ParagraphTinyHeavy {
-  font-size: 9px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ParagraphTinyRegular {
-  font-size: 9px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.ParagraphTinyLight {
-  font-size: 9px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.SmallCapsHeavy {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.SmallCapsRegular {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.SmallCapsLight {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 300px;
-  font-stretch: normal;
-}
-.ActionButtonLarge {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ActionButtonMedium {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ActionButtonSmall {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ActionLinkLarge {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ActionLinkMedium {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.ActionLinkSmall {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Source Sans Pro;
-  font-weight: 600px;
-  font-stretch: normal;
-}
-.DocsPageTitle {
-  font-size: 560px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
-.DocsSectionTitle {
-  font-size: 160px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
-.DocsCategoryTitle {
-  font-size: 54px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
-.DocsComponentName {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
-.DocsComponentSubtitle {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
-.DocsComponentDescription {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.DocsComponentSmallDescription {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.22;
+  text-transform: none;
+  text-decoration: none;
 }
